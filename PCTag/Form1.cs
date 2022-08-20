@@ -22,7 +22,8 @@ namespace PCTag
             InitializeComponent();
             SysTrayMenu = new ContextMenu();
             TrayIcon = new NotifyIcon();
-            SysTrayMenu.MenuItems.Add("About PCTag", ShowAbout); //[1]
+            SysTrayMenu.MenuItems.Add("About", ShowAbout); //[1]
+            SysTrayMenu.MenuItems.Add("-"); //Divider
             SysTrayMenu.MenuItems.Add("Close", Exit);//[2]
             TrayIcon.Text = "PC Tag, Bluntly";
             Icon ico = this.Icon;
@@ -153,5 +154,10 @@ namespace PCTag
                 .ToString();
         }
 
+        private void Labels_Click(object sender, EventArgs e)
+        {
+            Label lbl = sender as Label;
+            Clipboard.SetText(lbl.Text);
+        }
     }
 }
