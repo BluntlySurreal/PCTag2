@@ -19,7 +19,7 @@ namespace PCTag
 
         private void WebsiteLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("http://Salman.ink");
+            System.Diagnostics.Process.Start("http://bluntly.me");
         }
 
         private void AboutCloseButton_Click(object sender, EventArgs e)
