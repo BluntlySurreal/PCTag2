@@ -121,4 +121,13 @@
   <data name="Icon_SysInfoBlack" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Icon_SysInfoBlack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Icons_Refresh_Black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icons_Refresh_Black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh-icon -dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh-icon -dark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PCT_Refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PCT_Refresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

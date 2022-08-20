@@ -53,6 +53,11 @@ namespace PCTag
 
         private void PCTagMainForm_Load(object sender, EventArgs e)
         {
+            GetAllInfo();
+        }
+
+        private void GetAllInfo()
+        {
             this.SendToBack();
             try
             {
@@ -69,7 +74,6 @@ namespace PCTag
             GetCurrentUser(UserLabel);
             RepositionWindow();
         }
-
 
         private void RepositionWindow()
         {
@@ -152,6 +156,11 @@ namespace PCTag
                 // .Where(a => Array.FindIndex(a.GetAddressBytes(), b => b != 0) >= 0)
                 .FirstOrDefault()
                 .ToString();
+        }
+
+        private void RefreshpictureBox_Click(object sender, EventArgs e)
+        {
+            GetAllInfo();
         }
 
         private void Labels_Click(object sender, EventArgs e)

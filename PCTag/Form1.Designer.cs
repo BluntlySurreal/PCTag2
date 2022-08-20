@@ -46,10 +46,12 @@
             this.bottomPanel = new System.Windows.Forms.Panel();
             this.bottomTable = new System.Windows.Forms.TableLayoutPanel();
             this.MainFormElipse = new PCTag.ElipseControl();
+            this.RefreshpictureBox = new System.Windows.Forms.PictureBox();
             this.topPanel.SuspendLayout();
             this.topTable.SuspendLayout();
             this.bottomPanel.SuspendLayout();
             this.bottomTable.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.RefreshpictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // fqdntitle
@@ -288,12 +290,25 @@
             this.MainFormElipse.CornerRadius = 15;
             this.MainFormElipse.TargetControl = this;
             // 
+            // RefreshpictureBox
+            // 
+            this.RefreshpictureBox.BackColor = System.Drawing.Color.DimGray;
+            this.RefreshpictureBox.Image = global::PCTag.Properties.Resources.PCT_Refresh;
+            this.RefreshpictureBox.Location = new System.Drawing.Point(6, 4);
+            this.RefreshpictureBox.Name = "RefreshpictureBox";
+            this.RefreshpictureBox.Size = new System.Drawing.Size(15, 15);
+            this.RefreshpictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.RefreshpictureBox.TabIndex = 15;
+            this.RefreshpictureBox.TabStop = false;
+            this.RefreshpictureBox.Click += new System.EventHandler(this.RefreshpictureBox_Click);
+            // 
             // PCTagMainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(223, 98);
+            this.Controls.Add(this.RefreshpictureBox);
             this.Controls.Add(this.topPanel);
             this.Controls.Add(this.bottomPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -311,6 +326,7 @@
             this.bottomPanel.PerformLayout();
             this.bottomTable.ResumeLayout(false);
             this.bottomTable.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.RefreshpictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -334,6 +350,7 @@
         private System.Windows.Forms.Panel topPanel;
         private System.Windows.Forms.TableLayoutPanel topTable;
         private ElipseControl MainFormElipse;
+        private System.Windows.Forms.PictureBox RefreshpictureBox;
     }
 }
 
