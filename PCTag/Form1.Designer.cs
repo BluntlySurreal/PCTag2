@@ -61,10 +61,10 @@
             this.fqdntitle.Dock = System.Windows.Forms.DockStyle.Right;
             this.fqdntitle.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fqdntitle.ForeColor = System.Drawing.Color.White;
-            this.fqdntitle.Location = new System.Drawing.Point(42, 2);
+            this.fqdntitle.Location = new System.Drawing.Point(27, 2);
             this.fqdntitle.Name = "fqdntitle";
             this.fqdntitle.Padding = new System.Windows.Forms.Padding(6, 2, 0, 0);
-            this.fqdntitle.Size = new System.Drawing.Size(55, 18);
+            this.fqdntitle.Size = new System.Drawing.Size(70, 1);
             this.fqdntitle.TabIndex = 0;
             this.fqdntitle.Text = "FQDN:";
             this.fqdntitle.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -76,10 +76,10 @@
             this.iptitle.Dock = System.Windows.Forms.DockStyle.Right;
             this.iptitle.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iptitle.ForeColor = System.Drawing.Color.White;
-            this.iptitle.Location = new System.Drawing.Point(15, 2);
+            this.iptitle.Location = new System.Drawing.Point(9, 2);
             this.iptitle.Name = "iptitle";
             this.iptitle.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);
-            this.iptitle.Size = new System.Drawing.Size(82, 17);
+            this.iptitle.Size = new System.Drawing.Size(88, 42);
             this.iptitle.TabIndex = 1;
             this.iptitle.Text = "IP Address:";
             this.iptitle.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -94,7 +94,7 @@
             this.IP1Label.Location = new System.Drawing.Point(103, 2);
             this.IP1Label.Name = "IP1Label";
             this.IP1Label.Padding = new System.Windows.Forms.Padding(0, 0, 6, 0);
-            this.IP1Label.Size = new System.Drawing.Size(109, 17);
+            this.IP1Label.Size = new System.Drawing.Size(150, 42);
             this.IP1Label.TabIndex = 2;
             this.IP1Label.Text = "000.000.000.000";
             this.IP1Label.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -108,10 +108,10 @@
             this.DnsLabel.Dock = System.Windows.Forms.DockStyle.Left;
             this.DnsLabel.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DnsLabel.ForeColor = System.Drawing.Color.White;
-            this.DnsLabel.Location = new System.Drawing.Point(103, 36);
+            this.DnsLabel.Location = new System.Drawing.Point(103, 86);
             this.DnsLabel.Name = "DnsLabel";
             this.DnsLabel.Padding = new System.Windows.Forms.Padding(0, 0, 6, 0);
-            this.DnsLabel.Size = new System.Drawing.Size(109, 17);
+            this.DnsLabel.Size = new System.Drawing.Size(150, 21);
             this.DnsLabel.TabIndex = 3;
             this.DnsLabel.Text = "000.000.000.000";
             this.DnsLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -125,10 +125,10 @@
             this.GatewayLabel.Dock = System.Windows.Forms.DockStyle.Left;
             this.GatewayLabel.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GatewayLabel.ForeColor = System.Drawing.Color.White;
-            this.GatewayLabel.Location = new System.Drawing.Point(103, 19);
+            this.GatewayLabel.Location = new System.Drawing.Point(103, 44);
             this.GatewayLabel.Name = "GatewayLabel";
             this.GatewayLabel.Padding = new System.Windows.Forms.Padding(0, 0, 6, 0);
-            this.GatewayLabel.Size = new System.Drawing.Size(109, 17);
+            this.GatewayLabel.Size = new System.Drawing.Size(150, 42);
             this.GatewayLabel.TabIndex = 4;
             this.GatewayLabel.Text = "000.000.000.000";
             this.GatewayLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -142,10 +142,10 @@
             this.UserLabel.Dock = System.Windows.Forms.DockStyle.Left;
             this.UserLabel.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UserLabel.ForeColor = System.Drawing.Color.White;
-            this.UserLabel.Location = new System.Drawing.Point(103, 20);
+            this.UserLabel.Location = new System.Drawing.Point(103, 2);
             this.UserLabel.Name = "UserLabel";
             this.UserLabel.Padding = new System.Windows.Forms.Padding(0, 0, 6, 0);
-            this.UserLabel.Size = new System.Drawing.Size(86, 19);
+            this.UserLabel.Size = new System.Drawing.Size(108, 1);
             this.UserLabel.TabIndex = 9;
             this.UserLabel.Text = "usernaame";
             this.UserLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -159,10 +159,10 @@
             this.usertitle.Dock = System.Windows.Forms.DockStyle.Right;
             this.usertitle.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.usertitle.ForeColor = System.Drawing.Color.White;
-            this.usertitle.Location = new System.Drawing.Point(11, 20);
+            this.usertitle.Location = new System.Drawing.Point(17, 2);
             this.usertitle.Name = "usertitle";
             this.usertitle.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);
-            this.usertitle.Size = new System.Drawing.Size(86, 19);
+            this.usertitle.Size = new System.Drawing.Size(80, 1);
             this.usertitle.TabIndex = 8;
             this.usertitle.Text = "Logged As:";
             this.usertitle.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -174,10 +174,10 @@
             this.gatewaytitle.Dock = System.Windows.Forms.DockStyle.Right;
             this.gatewaytitle.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gatewaytitle.ForeColor = System.Drawing.Color.White;
-            this.gatewaytitle.Location = new System.Drawing.Point(53, 36);
+            this.gatewaytitle.Location = new System.Drawing.Point(42, 86);
             this.gatewaytitle.Name = "gatewaytitle";
             this.gatewaytitle.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);
-            this.gatewaytitle.Size = new System.Drawing.Size(44, 17);
+            this.gatewaytitle.Size = new System.Drawing.Size(55, 21);
             this.gatewaytitle.TabIndex = 7;
             this.gatewaytitle.Text = "DNS:";
             this.gatewaytitle.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -189,10 +189,10 @@
             this.dnstitle.Dock = System.Windows.Forms.DockStyle.Right;
             this.dnstitle.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dnstitle.ForeColor = System.Drawing.Color.White;
-            this.dnstitle.Location = new System.Drawing.Point(19, 19);
+            this.dnstitle.Location = new System.Drawing.Point(10, 44);
             this.dnstitle.Name = "dnstitle";
             this.dnstitle.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);
-            this.dnstitle.Size = new System.Drawing.Size(78, 17);
+            this.dnstitle.Size = new System.Drawing.Size(87, 42);
             this.dnstitle.TabIndex = 6;
             this.dnstitle.Text = "Gateway:";
             this.dnstitle.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -207,7 +207,7 @@
             this.FQDNLabel.Location = new System.Drawing.Point(103, 2);
             this.FQDNLabel.Name = "FQDNLabel";
             this.FQDNLabel.Padding = new System.Windows.Forms.Padding(0, 2, 6, 0);
-            this.FQDNLabel.Size = new System.Drawing.Size(85, 18);
+            this.FQDNLabel.Size = new System.Drawing.Size(106, 1);
             this.FQDNLabel.TabIndex = 5;
             this.FQDNLabel.Text = "FQDNLabel";
             this.FQDNLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -227,7 +227,7 @@
             this.topPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.topPanel.Location = new System.Drawing.Point(0, 0);
             this.topPanel.Name = "topPanel";
-            this.topPanel.Size = new System.Drawing.Size(223, 41);
+            this.topPanel.Size = new System.Drawing.Size(223, 0);
             this.topPanel.TabIndex = 13;
             // 
             // topTable
@@ -247,7 +247,7 @@
             this.topTable.RowCount = 2;
             this.topTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.topTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.topTable.Size = new System.Drawing.Size(223, 41);
+            this.topTable.Size = new System.Drawing.Size(223, 0);
             this.topTable.TabIndex = 0;
             // 
             // bottomPanel
@@ -255,10 +255,10 @@
             this.bottomPanel.AutoSize = true;
             this.bottomPanel.Controls.Add(this.bottomTable);
             this.bottomPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.bottomPanel.Location = new System.Drawing.Point(0, 41);
+            this.bottomPanel.Location = new System.Drawing.Point(0, -13);
             this.bottomPanel.Name = "bottomPanel";
             this.bottomPanel.Padding = new System.Windows.Forms.Padding(0, 0, 0, 2);
-            this.bottomPanel.Size = new System.Drawing.Size(223, 57);
+            this.bottomPanel.Size = new System.Drawing.Size(223, 111);
             this.bottomPanel.TabIndex = 14;
             // 
             // bottomTable
@@ -282,7 +282,7 @@
             this.bottomTable.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.bottomTable.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.bottomTable.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.bottomTable.Size = new System.Drawing.Size(223, 55);
+            this.bottomTable.Size = new System.Drawing.Size(223, 109);
             this.bottomTable.TabIndex = 0;
             // 
             // MainFormElipse
@@ -293,7 +293,7 @@
             // RefreshpictureBox
             // 
             this.RefreshpictureBox.BackColor = System.Drawing.Color.DimGray;
-            this.RefreshpictureBox.Image = global::PCTag.Properties.Resources.PCT_Refresh;
+            this.RefreshpictureBox.Image = global::PCTag.Properties.Resources.PCTRefresh;
             this.RefreshpictureBox.Location = new System.Drawing.Point(6, 4);
             this.RefreshpictureBox.Name = "RefreshpictureBox";
             this.RefreshpictureBox.Size = new System.Drawing.Size(15, 15);

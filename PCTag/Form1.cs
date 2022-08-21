@@ -82,16 +82,21 @@ namespace PCTag
         }
         private void GetFQDN(Label FQDNlabel)
         {
-            domainName = "." + domainName;
-            if (!hostName.EndsWith(domainName)) // if hostname does not already include domain name
+            try
             {
-                hostName += domainName; // add the domain name part
-            }
+                domainName = "." + domainName;
+                if (!hostName.EndsWith(domainName)) // if hostname does not already include domain name
+                {
+                    hostName += domainName; // add the domain name part
+                }
 
-            if (hostName.EndsWith("."))
-            { FQDNlabel.Text = hostName.Remove(hostName.Length - 1, 1); }
-            else
-            { FQDNlabel.Text = hostName; } // return the fully qualified domain name
+                if (hostName.EndsWith("."))
+                { FQDNlabel.Text = hostName.Remove(hostName.Length - 1, 1); }
+                else
+                { FQDNlabel.Text = hostName; } // return the fully qualified domain name
+            }
+            catch (Exception ex)
+            { MessageBox.Show(ex.Message); }
         }
 
         private void GetCurrentUser(Label hostnamelabel)
@@ -119,21 +124,26 @@ namespace PCTag
 
         private void GetDns(Label dnslabel)
         {
-            DnsLabel.Text = " ";
-            foreach (NetworkInterface ni in NetworkInterface.GetAllNetworkInterfaces())
+            try
             {
-                if (ni.NetworkInterfaceType == NetworkInterfaceType.Ethernet)
+                DnsLabel.Text = " ";
+                foreach (NetworkInterface ni in NetworkInterface.GetAllNetworkInterfaces())
                 {
-
-                    foreach (IPAddress dnsAdress in ni.GetIPProperties().DnsAddresses)
+                    if (ni.NetworkInterfaceType == NetworkInterfaceType.Ethernet)
                     {
-                        if (dnsAdress.AddressFamily == System.Net.Sockets.AddressFamily.InterNetwork)
+
+                        foreach (IPAddress dnsAdress in ni.GetIPProperties().DnsAddresses)
                         {
-                            dnslabel.Text = dnsAdress.ToString();
+                            if (dnsAdress.AddressFamily == System.Net.Sockets.AddressFamily.InterNetwork)
+                            {
+                                dnslabel.Text = dnsAdress.ToString();
+                            }
                         }
                     }
                 }
             }
+            catch (Exception ex)
+            { MessageBox.Show(ex.Message); }
         }
 
         private void PCTagMainForm_FormClosing(object sender, FormClosingEventArgs e)
@@ -145,17 +155,22 @@ namespace PCTag
 
         private void GetGateway(Label gatewaylabel)
         {
-            gatewaylabel.Text = NetworkInterface
-                .GetAllNetworkInterfaces()
-                .Where(n => n.OperationalStatus == OperationalStatus.Up)
-                .Where(n => n.NetworkInterfaceType != NetworkInterfaceType.Loopback)
-                .SelectMany(n => n.GetIPProperties()?.GatewayAddresses)
-                .Select(g => g?.Address)
-                .Where(a => a != null)
-                // .Where(a => a.AddressFamily == AddressFamily.InterNetwork)
-                // .Where(a => Array.FindIndex(a.GetAddressBytes(), b => b != 0) >= 0)
-                .FirstOrDefault()
-                .ToString();
+            try
+            {
+                gatewaylabel.Text = NetworkInterface
+                    .GetAllNetworkInterfaces()
+                    .Where(n => n.OperationalStatus == OperationalStatus.Up)
+                    .Where(n => n.NetworkInterfaceType != NetworkInterfaceType.Loopback)
+                    .SelectMany(n => n.GetIPProperties()?.GatewayAddresses)
+                    .Select(g => g?.Address)
+                    .Where(a => a != null)
+                    // .Where(a => a.AddressFamily == AddressFamily.InterNetwork)
+                    // .Where(a => Array.FindIndex(a.GetAddressBytes(), b => b != 0) >= 0)
+                    .FirstOrDefault()
+                    .ToString();
+            }
+            catch (Exception ex)
+            { MessageBox.Show(ex.Message); }
         }
 
         private void RefreshpictureBox_Click(object sender, EventArgs e)
@@ -166,7 +181,9 @@ namespace PCTag
         private void Labels_Click(object sender, EventArgs e)
         {
             Label lbl = sender as Label;
-            Clipboard.SetText(lbl.Text);
+            if (!string.IsNullOrEmpty(lbl.Text))
+            { Clipboard.SetText(lbl.Text); }
+            else { }
         }
     }
 }
