@@ -118,13 +118,34 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Icon_ReloadWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon_ReloadWhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon_ColorSwitchOnWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon_ColorSwitchOnWhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Icon_SysInfoBlack" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Icon_SysInfoBlack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon_ReloadBlack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon_ReloadBlack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon_ColorSwitch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon_ColorSwitch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PCT_Refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PCT_Refresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PCTRefresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PCTRefresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon_ColorSwitchOnBlack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon_ColorSwitchOnBlack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon_ColorSwitchOnGray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon_ColorSwitchOnGray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon_ReloadGray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon_ReloadGray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

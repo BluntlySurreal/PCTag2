@@ -111,6 +111,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icon__SysInfoBlack.ico" />
+    <None Include="Resources\Icon_ReloadGray.png" />
+    <None Include="Resources\Icon_ColorSwitchOnGray.png" />
+    <None Include="Resources\Icon_ColorSwitchOnWhite.png" />
+    <None Include="Resources\Icon_ColorSwitchOnBlack.png" />
+    <None Include="Resources\Icon_ReloadWhite.png" />
+    <None Include="Resources\Icon_ReloadBlack.png" />
+    <None Include="Resources\Icon_ColorSwitch.png" />
     <None Include="Resources\PCTRefresh.png" />
     <None Include="Resources\PCT_Refresh.png" />
   </ItemGroup>

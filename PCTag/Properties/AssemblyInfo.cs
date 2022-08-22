@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("PC Tag")]
+[assembly: AssemblyTitle("PC Tag 2")]
 [assembly: AssemblyDescription("A small tool for Sys Admins and IT Guys that shows PC info on a static tag on the bottom right of the screen")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Bluntly.me")]
-[assembly: AssemblyProduct("PC Tag")]
+[assembly: AssemblyProduct("PC Tag 2")]
 [assembly: AssemblyCopyright("Copyright Bluntly.me ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -33,6 +33,6 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("2.0.0.0")]
+[assembly: AssemblyFileVersion("2.0.0.0")]
 [assembly: NeutralResourcesLanguage("en")]

@@ -17,6 +17,8 @@ namespace PCTag
     {
         private NotifyIcon TrayIcon;
         internal ContextMenu SysTrayMenu;
+        private Color clr;
+        private int Red, Green, Blue;
         public PCTag2MainForm()
         {
             InitializeComponent();
@@ -53,6 +55,10 @@ namespace PCTag
 
         private void PCTagMainForm_Load(object sender, EventArgs e)
         {
+            clr = Color.White;
+            Red = clr.R;
+            Green = clr.G;
+            Blue = clr.B;
             GetAllInfo();
         }
 
@@ -176,6 +182,86 @@ namespace PCTag
         private void RefreshpictureBox_Click(object sender, EventArgs e)
         {
             GetAllInfo();
+        }
+
+        private void ShiftColors()
+        {
+            if (clr == Color.White)
+            {
+                clr = Color.FromArgb(255, 119, 119, 119);
+                foreach (Control x in this.topTable.Controls)
+                {
+                    if (x is Label)
+                    {
+                        ((Label)x).ForeColor = clr;
+                    }
+                }
+
+                foreach (Control x in this.bottomTable.Controls)
+                {
+                    if (x is Label)
+                    {
+                        ((Label)x).ForeColor = clr;
+                    }
+                }
+
+                this.BackColor = Color.Black;
+                RefreshpictureBox.Image = PCTag.Properties.Resources.Icon_ReloadGray;
+                ColorpictureBox.Image = PCTag.Properties.Resources.Icon_ColorSwitchOnGray;
+            }
+
+            else if(clr == Color.FromArgb(255, 119, 119, 119))
+            {
+                clr = Color.Black;
+                foreach (Control x in this.bottomTable.Controls)
+                {
+                    if (x is Label)
+                    {
+                        ((Label)x).ForeColor = clr;
+                    }
+                }
+
+                foreach (Control x in this.topTable.Controls)
+                {
+                    if (x is Label)
+                    {
+                        ((Label)x).ForeColor = clr;
+                    }
+                }
+
+                this.BackColor = Color.White;
+                RefreshpictureBox.Image = PCTag.Properties.Resources.Icon_ReloadBlack;
+                ColorpictureBox.Image = PCTag.Properties.Resources.Icon_ColorSwitchOnWhite;
+            }
+
+            else if(clr == Color.Black)
+            {
+                clr = Color.White;
+                foreach (Control x in this.topTable.Controls)
+                {
+                    if (x is Label)
+                    {
+                        ((Label)x).ForeColor = clr;
+                    }
+                }
+
+                foreach (Control x in this.bottomTable.Controls)
+                {
+                    if (x is Label)
+                    {
+                        ((Label)x).ForeColor = clr;
+                    }
+                }
+
+                RefreshpictureBox.Image = PCTag.Properties.Resources.Icon_ReloadWhite;
+                ColorpictureBox.Image = PCTag.Properties.Resources.Icon_ColorSwitchOnBlack;
+                this.BackColor = Color.Black;
+            }
+        }
+
+        private void ColorpictureBox_Click(object sender, EventArgs e)
+        {
+            ShiftColors();
         }
 
         private void Labels_Click(object sender, EventArgs e)

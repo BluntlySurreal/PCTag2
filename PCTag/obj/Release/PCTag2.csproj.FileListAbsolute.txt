@@ -1,0 +1,17 @@
+C:\Users\BluntlySurreal\source\repos\PCTag2\PCTag\bin\Release\PCTag.exe.config
+C:\Users\BluntlySurreal\source\repos\PCTag2\PCTag\bin\Release\PCTag.exe.manifest
+C:\Users\BluntlySurreal\source\repos\PCTag2\PCTag\bin\Release\PCTag.application
+C:\Users\BluntlySurreal\source\repos\PCTag2\PCTag\bin\Release\PCTag.exe
+C:\Users\BluntlySurreal\source\repos\PCTag2\PCTag\bin\Release\PCTag.pdb
+C:\Users\BluntlySurreal\source\repos\PCTag2\PCTag\obj\Release\PCTag2.csproj.AssemblyReference.cache
+C:\Users\BluntlySurreal\source\repos\PCTag2\PCTag\obj\Release\PCTag2.csproj.SuggestedBindingRedirects.cache
+C:\Users\BluntlySurreal\source\repos\PCTag2\PCTag\obj\Release\PCTag.AboutForm.resources
+C:\Users\BluntlySurreal\source\repos\PCTag2\PCTag\obj\Release\PCTag.PCTag2MainForm.resources
+C:\Users\BluntlySurreal\source\repos\PCTag2\PCTag\obj\Release\PCTag.Properties.Resources.resources
+C:\Users\BluntlySurreal\source\repos\PCTag2\PCTag\obj\Release\PCTag2.csproj.GenerateResource.cache
+C:\Users\BluntlySurreal\source\repos\PCTag2\PCTag\obj\Release\PCTag2.csproj.CoreCompileInputs.cache
+C:\Users\BluntlySurreal\source\repos\PCTag2\PCTag\obj\Release\PCTag.TrustInfo.xml
+C:\Users\BluntlySurreal\source\repos\PCTag2\PCTag\obj\Release\PCTag.exe.manifest
+C:\Users\BluntlySurreal\source\repos\PCTag2\PCTag\obj\Release\PCTag.application
+C:\Users\BluntlySurreal\source\repos\PCTag2\PCTag\obj\Release\PCTag.exe
+C:\Users\BluntlySurreal\source\repos\PCTag2\PCTag\obj\Release\PCTag.pdb
