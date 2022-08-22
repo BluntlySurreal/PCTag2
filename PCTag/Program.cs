@@ -16,7 +16,7 @@ namespace PCTag
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PCTagMainForm());
+            Application.Run(new PCTag2MainForm());
         }
     }
 }

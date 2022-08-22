@@ -80,7 +80,7 @@
             this.AppNameLabel.Name = "AppNameLabel";
             this.AppNameLabel.Size = new System.Drawing.Size(61, 26);
             this.AppNameLabel.TabIndex = 3;
-            this.AppNameLabel.Text = "PC Tag\r\nVersion 1.1";
+            this.AppNameLabel.Text = "PC Tag 2\r\nVersion 2.0";
             this.AppNameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox1

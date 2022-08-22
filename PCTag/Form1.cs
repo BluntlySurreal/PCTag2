@@ -13,11 +13,11 @@ using System.Net.NetworkInformation;
 
 namespace PCTag
 {
-    public partial class PCTagMainForm : Form
+    public partial class PCTag2MainForm : Form
     {
         private NotifyIcon TrayIcon;
         internal ContextMenu SysTrayMenu;
-        public PCTagMainForm()
+        public PCTag2MainForm()
         {
             InitializeComponent();
             SysTrayMenu = new ContextMenu();

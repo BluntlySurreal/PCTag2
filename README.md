@@ -1,4 +1,4 @@
-# PCTag
+# PCTag2
 
 A helpful tool for Sys Admins and IT guys to identify the PC they are working on,
 represented by a static tag on the desktop.
